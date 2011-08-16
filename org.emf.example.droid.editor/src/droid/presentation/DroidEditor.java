@@ -17,7 +17,6 @@ import java.util.EventObject;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.eclipse.core.resources.IFile;
@@ -100,7 +99,8 @@ import org.eclipse.ui.views.contentoutline.IContentOutlinePage;
 
 import org.eclipse.ui.views.properties.IPropertySheetPage;
 import org.eclipse.ui.views.properties.PropertySheet;
-import org.eclipse.ui.views.properties.PropertySheetPage;
+import org.eclipse.ui.views.properties.tabbed.ITabbedPropertySheetPageContributor;
+import org.eclipse.ui.views.properties.tabbed.TabbedPropertySheetPage;
 
 import org.eclipse.emf.common.command.BasicCommandStack;
 import org.eclipse.emf.common.command.Command;
@@ -155,8 +155,6 @@ import org.eclipse.emf.edit.ui.provider.UnwrappingSelectionProvider;
 import org.eclipse.emf.edit.ui.util.EditUIMarkerHelper;
 import org.eclipse.emf.edit.ui.util.EditUIUtil;
 
-import org.eclipse.emf.edit.ui.view.ExtendedPropertySheetPage;
-
 import droid.provider.DroidItemProviderAdapterFactory;
 
 import org.eclipse.ui.actions.WorkspaceModifyOperation;
@@ -165,12 +163,19 @@ import org.eclipse.ui.actions.WorkspaceModifyOperation;
 /**
  * This is an example of a Droid model editor.
  * <!-- begin-user-doc -->
+ * @implements ITabbedPropertySheetPageContributor
  * <!-- end-user-doc -->
  * @generated
  */
 public class DroidEditor
 	extends MultiPageEditorPart
-	implements IEditingDomainProvider, ISelectionProvider, IMenuListener, IViewerProvider, IGotoMarker {
+	implements IEditingDomainProvider, ISelectionProvider, IMenuListener, IViewerProvider, IGotoMarker, ITabbedPropertySheetPageContributor {
+
+	/**
+	 * @generated NOT
+	 */
+	private static final String PROPERTIES_CONTRIBUTOR = "droid.properties";
+
 	/**
 	 * This keeps track of the editing domain that is used to track all changes to the model.
 	 * <!-- begin-user-doc -->
@@ -215,9 +220,9 @@ public class DroidEditor
 	 * This is the property sheet page.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
-	protected PropertySheetPage propertySheetPage;
+	protected TabbedPropertySheetPage propertySheetPage;
 
 	/**
 	 * This is the viewer that shadows the selection in the content outline.
@@ -1379,29 +1384,14 @@ public class DroidEditor
 	 * This accesses a cached version of the property sheet.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
-	public IPropertySheetPage getPropertySheetPage() {
-		if (propertySheetPage == null) {
-			propertySheetPage =
-				new ExtendedPropertySheetPage(editingDomain) {
-					@Override
-					public void setSelectionToViewer(List<?> selection) {
-						DroidEditor.this.setSelectionToViewer(selection);
-						DroidEditor.this.setFocus();
-					}
-
-					@Override
-					public void setActionBars(IActionBars actionBars) {
-						super.setActionBars(actionBars);
-						getActionBarContributor().shareGlobalActions(this, actionBars);
-					}
-				};
-			propertySheetPage.setPropertySourceProvider(new AdapterFactoryContentProvider(adapterFactory));
-		}
-
-		return propertySheetPage;
-	}
+	 public IPropertySheetPage getPropertySheetPage() {
+	     if (propertySheetPage == null || propertySheetPage.getControl().isDisposed()) {
+	        propertySheetPage = new TabbedPropertySheetPage(DroidEditor.this);
+	     }
+	    return propertySheetPage;
+	 }
 
 	/**
 	 * This deals with how we want selection in the outliner to affect the other views.
@@ -1812,5 +1802,14 @@ public class DroidEditor
 	 */
 	protected boolean showOutlineView() {
 		return true;
+	}
+
+	/** (non-Javadoc)
+	 * @see org.eclipse.ui.views.properties.tabbed.ITabbedPropertySheetPageContributor#getContributorId()
+	 * @generated NOT
+	 */
+	@Override
+	public String getContributorId() {
+		return PROPERTIES_CONTRIBUTOR;
 	}
 }
