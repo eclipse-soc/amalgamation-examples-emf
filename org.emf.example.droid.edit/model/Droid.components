@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eef-components="http://www.eclipse.org/emf/eef/components/1.0.0" xmlns:eef-views="http://www.eclipse.org/emf/eef/views/1.0.0">
+  <eef-components:PropertiesEditionContext xmi:id="_40vb4cecEeCpVKas8ay5SQ" documentation="Edition Context for droid GenPackage">
+    <categories xmi:id="_40wC8MecEeCpVKas8ay5SQ" name="droid">
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqAMecEeCpVKas8ay5SQ" name="Application" views="_40x4JsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqAcecEeCpVKas8ay5SQ" name="name" views="_40x4KMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqAsecEeCpVKas8ay5SQ" name="packageName" views="_40x4KcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application/packageName"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqA8ecEeCpVKas8ay5SQ" name="versionCode" views="_40x4KsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application/versionCode"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqBMecEeCpVKas8ay5SQ" name="versionName" views="_40x4K8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application/versionName"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqBcecEeCpVKas8ay5SQ" name="screens" views="_40x4LMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application/screens"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqBsecEeCpVKas8ay5SQ" name="layouts" views="_40x4LcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application/layouts"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqB8ecEeCpVKas8ay5SQ" name="resources" views="_40x4LsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application/resources"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Application"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqCMecEeCpVKas8ay5SQ" name="ApplicationUsesSDK" views="_40x4L8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqCcecEeCpVKas8ay5SQ" name="minSdkVersion" views="_40x4McecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ApplicationUsesSDK/minSdkVersion"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqCsecEeCpVKas8ay5SQ" name="maxSdkVersion" views="_40x4MsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ApplicationUsesSDK/maxSdkVersion"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqC8ecEeCpVKas8ay5SQ" name="targetSdkVersion" views="_40x4M8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ApplicationUsesSDK/targetSdkVersion"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ApplicationUsesSDK"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqDMecEeCpVKas8ay5SQ" name="Screen" views="_40x4NMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqDcecEeCpVKas8ay5SQ" name="name" views="_40x4NsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Screen/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqDsecEeCpVKas8ay5SQ" name="layout" views="_40x4N8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Screen/layout"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Screen"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqD8ecEeCpVKas8ay5SQ" name="Action" views="_40x4OMecEeCpVKas8ay5SQ">
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Action"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqEMecEeCpVKas8ay5SQ" name="GoToURLAction" views="_40x4OcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqEcecEeCpVKas8ay5SQ" name="url" views="_40x4O8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//GoToURLAction/url"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//GoToURLAction"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqEsecEeCpVKas8ay5SQ" name="ShowLayoutAction" views="_40x4PMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqE8ecEeCpVKas8ay5SQ" name="layout" views="_40x4PsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ShowLayoutAction/layout"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ShowLayoutAction"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqFMecEeCpVKas8ay5SQ" name="InvokeScreenAction" views="_40x4P8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqFcecEeCpVKas8ay5SQ" name="screen" views="_40x4QcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//InvokeScreenAction/screen"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//InvokeScreenAction"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqFsecEeCpVKas8ay5SQ" name="Layout" views="_40x4QsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqF8ecEeCpVKas8ay5SQ" name="name" views="_40x4RMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqGMecEeCpVKas8ay5SQ" name="isRelative" views="_40x4RcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/isRelative"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqGcecEeCpVKas8ay5SQ" name="alpha" views="_40x4RsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/alpha"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqGsecEeCpVKas8ay5SQ" name="nextFocusDown" views="_40x4R8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/nextFocusDown"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqG8ecEeCpVKas8ay5SQ" name="nextFocusLeft" views="_40x4SMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/nextFocusLeft"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqHMecEeCpVKas8ay5SQ" name="nextFocusRight" views="_40x4ScecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/nextFocusRight"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqHcecEeCpVKas8ay5SQ" name="nextFocusUp" views="_40x4SsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/nextFocusUp"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqHsecEeCpVKas8ay5SQ" name="visibility" views="_40x4S8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/visibility"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqH8ecEeCpVKas8ay5SQ" name="gravity" views="_40x4TMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/gravity"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqIMecEeCpVKas8ay5SQ" name="orientation" views="_40x4TcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout/orientation"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Layout"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqIcecEeCpVKas8ay5SQ" name="ViewCollection" views="_40x4TsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqIsecEeCpVKas8ay5SQ" name="views" views="_40x4UMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ViewCollection/views"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ViewCollection"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqI8ecEeCpVKas8ay5SQ" name="View" views="_40x4UcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqJMecEeCpVKas8ay5SQ" name="name" views="_40x4U8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqJcecEeCpVKas8ay5SQ" name="Widget" views="_40x4VMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqJsecEeCpVKas8ay5SQ" name="name" views="_40x4VsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Widget"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqJ8ecEeCpVKas8ay5SQ" name="TextView" views="_40x4V8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqKMecEeCpVKas8ay5SQ" name="name" views="_40x4WcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqKcecEeCpVKas8ay5SQ" name="autoLink" views="_40x4WsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TextView/autoLink"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqKsecEeCpVKas8ay5SQ" name="capitalize" views="_40x4W8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TextView/capitalize"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqK8ecEeCpVKas8ay5SQ" name="gravity" views="_40x4XMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TextView/gravity"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqLMecEeCpVKas8ay5SQ" name="typeface" views="_40x4XcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TextView/typeface"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqLcecEeCpVKas8ay5SQ" name="textStyle" views="_40x4XsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TextView/textStyle"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TextView"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqLsecEeCpVKas8ay5SQ" name="Button" views="_40x4X8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqL8ecEeCpVKas8ay5SQ" name="name" views="_40x4YcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Button"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqMMecEeCpVKas8ay5SQ" name="ImageView" views="_40x4YsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqMcecEeCpVKas8ay5SQ" name="name" views="_40x4ZMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ImageView"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqMsecEeCpVKas8ay5SQ" name="Spinner" views="_40x4ZcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqM8ecEeCpVKas8ay5SQ" name="name" views="_40x4Z8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Spinner"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqNMecEeCpVKas8ay5SQ" name="EditText" views="_40x4aMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqNcecEeCpVKas8ay5SQ" name="name" views="_40x4asecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//View/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqNsecEeCpVKas8ay5SQ" name="autoLink" views="_40x4a8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//EditText/autoLink"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqN8ecEeCpVKas8ay5SQ" name="capitalize" views="_40x4bMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//EditText/capitalize"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqOMecEeCpVKas8ay5SQ" name="gravity" views="_40x4bcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//EditText/gravity"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqOcecEeCpVKas8ay5SQ" name="typeface" views="_40yfMMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//EditText/typeface"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqOsecEeCpVKas8ay5SQ" name="textStyle" views="_40yfMcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//EditText/textStyle"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//EditText"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqO8ecEeCpVKas8ay5SQ" name="Resource" views="_40yfMsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqPMecEeCpVKas8ay5SQ" name="name" views="_40yfNMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqPcecEeCpVKas8ay5SQ" name="StringResource" views="_40yfNcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqPsecEeCpVKas8ay5SQ" name="name" views="_40yfN8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqP8ecEeCpVKas8ay5SQ" name="value" views="_40yfOMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringResource/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqQMecEeCpVKas8ay5SQ" name="IntegerResource" views="_40yfOcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqQcecEeCpVKas8ay5SQ" name="name" views="_40yfO8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqQsecEeCpVKas8ay5SQ" name="value" views="_40yfPMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerResource/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqQ8ecEeCpVKas8ay5SQ" name="BooleanResource" views="_40yfPcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqRMecEeCpVKas8ay5SQ" name="name" views="_40yfP8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqRcecEeCpVKas8ay5SQ" name="value" views="_40yfQMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BooleanResource/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BooleanResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqRsecEeCpVKas8ay5SQ" name="ColorResource" views="_40yfQcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqR8ecEeCpVKas8ay5SQ" name="name" views="_40yfQ8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40wqSMecEeCpVKas8ay5SQ" name="value" views="_40yfRMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ColorResource/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ColorResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40wqScecEeCpVKas8ay5SQ" name="DimensionResource" views="_40yfRcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xREMecEeCpVKas8ay5SQ" name="name" views="_40yfR8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xREcecEeCpVKas8ay5SQ" name="value" views="_40yfSMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DimensionResource/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DimensionResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xREsecEeCpVKas8ay5SQ" name="ArrayResource" views="_40yfScecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRE8ecEeCpVKas8ay5SQ" name="name" views="_40yfS8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ArrayResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRFMecEeCpVKas8ay5SQ" name="IntegerArrayResource" views="_40yfTMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRFcecEeCpVKas8ay5SQ" name="name" views="_40yfTsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRFsecEeCpVKas8ay5SQ" name="items" views="_40yfT8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerArrayResource/items"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerArrayResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRF8ecEeCpVKas8ay5SQ" name="StringArrayResource" views="_40yfUMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRGMecEeCpVKas8ay5SQ" name="name" views="_40yfUsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRGcecEeCpVKas8ay5SQ" name="items" views="_40yfU8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringArrayResource/items"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringArrayResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRGsecEeCpVKas8ay5SQ" name="DrawableResource" views="_40yfVMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRG8ecEeCpVKas8ay5SQ" name="name" views="_40yfVsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DrawableResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRHMecEeCpVKas8ay5SQ" name="BitmapDrawableResource" views="_40yfV8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRHcecEeCpVKas8ay5SQ" name="name" views="_40yfWcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRHsecEeCpVKas8ay5SQ" name="filename" views="_40yfWsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BitmapDrawableResource/filename"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BitmapDrawableResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRH8ecEeCpVKas8ay5SQ" name="TransitionDrawableResource" views="_40yfW8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRIMecEeCpVKas8ay5SQ" name="name" views="_40yfXcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//Resource/name"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRIcecEeCpVKas8ay5SQ" name="from" views="_40yfXsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TransitionDrawableResource/from"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRIsecEeCpVKas8ay5SQ" name="to" views="_40yfX8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TransitionDrawableResource/to"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//TransitionDrawableResource"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRI8ecEeCpVKas8ay5SQ" name="ValueAccess" views="_40yfYMecEeCpVKas8ay5SQ">
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ValueAccess"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRJMecEeCpVKas8ay5SQ" name="AnyDrawableVA" views="_40yfYcecEeCpVKas8ay5SQ">
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//AnyDrawableVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRJcecEeCpVKas8ay5SQ" name="StringVA" views="_40yfYsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRJsecEeCpVKas8ay5SQ" name="value" views="_40yfZMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringVA/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRJ8ecEeCpVKas8ay5SQ" name="IntegerVA" views="_40yfZcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRKMecEeCpVKas8ay5SQ" name="value" views="_40yfZ8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerVA/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRKcecEeCpVKas8ay5SQ" name="BooleanVA" views="_40yfaMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRKsecEeCpVKas8ay5SQ" name="value" views="_40yfasecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BooleanVA/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BooleanVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRK8ecEeCpVKas8ay5SQ" name="ColorVA" views="_40yfa8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRLMecEeCpVKas8ay5SQ" name="value" views="_40yfbcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ColorVA/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ColorVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRLcecEeCpVKas8ay5SQ" name="DimensionVA" views="_40yfbsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRLsecEeCpVKas8ay5SQ" name="const_value" views="_40yfcMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutDimensionVA/const_value"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRL8ecEeCpVKas8ay5SQ" name="value" views="_40yfccecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DimensionVA/value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DimensionVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRMMecEeCpVKas8ay5SQ" name="LayoutDimensionVA" views="_40yfcsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRMcecEeCpVKas8ay5SQ" name="const_value" views="_40yfdMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutDimensionVA/const_value"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutDimensionVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRMsecEeCpVKas8ay5SQ" name="DrawableVA" views="_40yfdcecEeCpVKas8ay5SQ">
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DrawableVA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRM8ecEeCpVKas8ay5SQ" name="ResourceAccess" views="_40yfdsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRNMecEeCpVKas8ay5SQ" name="package" views="_40yfeMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRNcecEeCpVKas8ay5SQ" name="externalResource" views="_40yfececEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/externalResource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRNsecEeCpVKas8ay5SQ" name="StringRA" views="_40yfesecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRN8ecEeCpVKas8ay5SQ" name="value" views="_40yffMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringVA/value"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xROMecEeCpVKas8ay5SQ" name="package" views="_40yffcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xROcecEeCpVKas8ay5SQ" name="externalResource" views="_40yffsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/externalResource"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xROsecEeCpVKas8ay5SQ" name="resource" views="_40yff8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringRA/resource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//StringRA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRO8ecEeCpVKas8ay5SQ" name="IntegerRA" views="_40yfgMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRPMecEeCpVKas8ay5SQ" name="value" views="_40yfgsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerVA/value"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRPcecEeCpVKas8ay5SQ" name="package" views="_40yfg8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRPsecEeCpVKas8ay5SQ" name="externalResource" views="_40yfhMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/externalResource"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRP8ecEeCpVKas8ay5SQ" name="resource" views="_40yfhcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerRA/resource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//IntegerRA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRQMecEeCpVKas8ay5SQ" name="BooleanRA" views="_40yfhsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRQcecEeCpVKas8ay5SQ" name="value" views="_40zGQcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BooleanVA/value"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRQsecEeCpVKas8ay5SQ" name="package" views="_40zGQsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRQ8ecEeCpVKas8ay5SQ" name="externalResource" views="_40zGQ8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/externalResource"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRRMecEeCpVKas8ay5SQ" name="resource" views="_40zGRMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BooleanRA/resource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//BooleanRA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRRcecEeCpVKas8ay5SQ" name="ColorRA" views="_40zGRcecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRRsecEeCpVKas8ay5SQ" name="value" views="_40zGR8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ColorVA/value"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRR8ecEeCpVKas8ay5SQ" name="package" views="_40zGSMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRSMecEeCpVKas8ay5SQ" name="externalResource" views="_40zGScecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/externalResource"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRScecEeCpVKas8ay5SQ" name="resource" views="_40zGSsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ColorRA/resource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ColorRA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRSsecEeCpVKas8ay5SQ" name="DimensionRA" views="_40zGS8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRS8ecEeCpVKas8ay5SQ" name="const_value" views="_40zGTcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutDimensionVA/const_value"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRTMecEeCpVKas8ay5SQ" name="value" views="_40zGTsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DimensionVA/value"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRTcecEeCpVKas8ay5SQ" name="package" views="_40zGT8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRTsecEeCpVKas8ay5SQ" name="externalResource" views="_40zGUMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/externalResource"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRT8ecEeCpVKas8ay5SQ" name="resource" views="_40zGUcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DimensionRA/resource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DimensionRA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRUMecEeCpVKas8ay5SQ" name="ArrayRA" views="_40zGUsecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRUcecEeCpVKas8ay5SQ" name="package" views="_40zGVMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ArrayRA/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRUsecEeCpVKas8ay5SQ" name="resource" views="_40zGVcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ArrayRA/resource"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRU8ecEeCpVKas8ay5SQ" name="externalResource" views="_40zGVsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ArrayRA/externalResource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ArrayRA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRVMecEeCpVKas8ay5SQ" name="DrawableRA" views="_40zGV8ecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRVcecEeCpVKas8ay5SQ" name="package" views="_40zGWcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/package"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRVsecEeCpVKas8ay5SQ" name="externalResource" views="_40zGWsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EAttribute" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//ResourceAccess/externalResource"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRV8ecEeCpVKas8ay5SQ" name="resource" views="_40zGW8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DrawableRA/resource"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//DrawableRA"/>
+      </bindings>
+      <bindings xsi:type="eef-components:PropertiesEditionComponent" xmi:id="_40xRWMecEeCpVKas8ay5SQ" name="LayoutProperties" views="_40zGXMecEeCpVKas8ay5SQ">
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRWcecEeCpVKas8ay5SQ" name="layout_above" views="_40zGXsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_above"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRWsecEeCpVKas8ay5SQ" name="layout_alignBaseline" views="_40zGX8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_alignBaseline"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRW8ecEeCpVKas8ay5SQ" name="layout_alignBottom" views="_40zGYMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_alignBottom"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40xRXMecEeCpVKas8ay5SQ" name="layout_alignLeft" views="_40zGYcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_alignLeft"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40x4IMecEeCpVKas8ay5SQ" name="layout_alignTop" views="_40zGYsecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_alignTop"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40x4IcecEeCpVKas8ay5SQ" name="layout_below" views="_40zGY8ecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_below"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40x4IsecEeCpVKas8ay5SQ" name="layout_toLeftOf" views="_40zGZMecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_toLeftOf"/>
+        </properties>
+        <properties xsi:type="eef-components:PropertiesEditionElement" xmi:id="_40x4I8ecEeCpVKas8ay5SQ" name="layout_toRightOf" views="_40zGZcecEeCpVKas8ay5SQ">
+          <model xsi:type="ecore:EReference" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties/layout_toRightOf"/>
+        </properties>
+        <model xsi:type="ecore:EClass" href="platform:/resource/org.emf.example.droid/model/Droid.ecore#//LayoutProperties"/>
+      </bindings>
+    </categories>
+    <model href="platform:/resource/org.emf.example.droid/model/Droid.genmodel#//droid"/>
+  </eef-components:PropertiesEditionContext>
+  <eef-views:ViewsRepository xmi:id="_40x4JMecEeCpVKas8ay5SQ" documentation="Views repository for droid GenPackage" name="droid">
+    <RepositoryKind>SWT</RepositoryKind>
+    <RepositoryKind>Form</RepositoryKind>
+    <categories xmi:id="_40x4JcecEeCpVKas8ay5SQ" name="droid">
+      <views xmi:id="_40x4JsecEeCpVKas8ay5SQ" name="Application">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4J8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4KMecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4KcecEeCpVKas8ay5SQ" name="packageName">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4KsecEeCpVKas8ay5SQ" name="versionCode">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4K8ecEeCpVKas8ay5SQ" name="versionName">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4LMecEeCpVKas8ay5SQ" name="screens">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4LcecEeCpVKas8ay5SQ" name="layouts">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4LsecEeCpVKas8ay5SQ" name="resources">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4L8ecEeCpVKas8ay5SQ" name="ApplicationUsesSDK">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4MMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4McecEeCpVKas8ay5SQ" name="minSdkVersion">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4MsecEeCpVKas8ay5SQ" name="maxSdkVersion">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4M8ecEeCpVKas8ay5SQ" name="targetSdkVersion">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4NMecEeCpVKas8ay5SQ" name="Screen">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4NcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4NsecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4N8ecEeCpVKas8ay5SQ" name="layout">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4OMecEeCpVKas8ay5SQ" name="Action"/>
+      <views xmi:id="_40x4OcecEeCpVKas8ay5SQ" name="GoToURLAction">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4OsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4O8ecEeCpVKas8ay5SQ" name="url">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4PMecEeCpVKas8ay5SQ" name="ShowLayoutAction">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4PcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4PsecEeCpVKas8ay5SQ" name="layout">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4P8ecEeCpVKas8ay5SQ" name="InvokeScreenAction">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4QMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4QcecEeCpVKas8ay5SQ" name="screen">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4QsecEeCpVKas8ay5SQ" name="Layout">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4Q8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4RMecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4RcecEeCpVKas8ay5SQ" name="isRelative">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.1"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4RsecEeCpVKas8ay5SQ" name="alpha">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4R8ecEeCpVKas8ay5SQ" name="nextFocusDown">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4SMecEeCpVKas8ay5SQ" name="nextFocusLeft">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4ScecEeCpVKas8ay5SQ" name="nextFocusRight">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4SsecEeCpVKas8ay5SQ" name="nextFocusUp">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4S8ecEeCpVKas8ay5SQ" name="visibility">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4TMecEeCpVKas8ay5SQ" name="gravity">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.3"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4TcecEeCpVKas8ay5SQ" name="orientation">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4TsecEeCpVKas8ay5SQ" name="ViewCollection">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4T8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4UMecEeCpVKas8ay5SQ" name="views">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.7"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4UcecEeCpVKas8ay5SQ" name="View">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4UsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4U8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4VMecEeCpVKas8ay5SQ" name="Widget">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4VcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4VsecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4V8ecEeCpVKas8ay5SQ" name="TextView">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4WMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4WcecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4WsecEeCpVKas8ay5SQ" name="autoLink">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4W8ecEeCpVKas8ay5SQ" name="capitalize">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4XMecEeCpVKas8ay5SQ" name="gravity">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4XcecEeCpVKas8ay5SQ" name="typeface">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4XsecEeCpVKas8ay5SQ" name="textStyle">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.3"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4X8ecEeCpVKas8ay5SQ" name="Button">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4YMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4YcecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4YsecEeCpVKas8ay5SQ" name="ImageView">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4Y8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4ZMecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4ZcecEeCpVKas8ay5SQ" name="Spinner">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4ZsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4Z8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40x4aMecEeCpVKas8ay5SQ" name="EditText">
+        <elements xsi:type="eef-views:Container" xmi:id="_40x4acecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4asecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4a8ecEeCpVKas8ay5SQ" name="autoLink">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4bMecEeCpVKas8ay5SQ" name="capitalize">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40x4bcecEeCpVKas8ay5SQ" name="gravity">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfMMecEeCpVKas8ay5SQ" name="typeface">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfMcecEeCpVKas8ay5SQ" name="textStyle">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.3"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfMsecEeCpVKas8ay5SQ" name="Resource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfM8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfNMecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfNcecEeCpVKas8ay5SQ" name="StringResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfNsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfN8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfOMecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfOcecEeCpVKas8ay5SQ" name="IntegerResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfOsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfO8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfPMecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfPcecEeCpVKas8ay5SQ" name="BooleanResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfPsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfP8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfQMecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfQcecEeCpVKas8ay5SQ" name="ColorResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfQsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfQ8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfRMecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfRcecEeCpVKas8ay5SQ" name="DimensionResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfRsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfR8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfSMecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfScecEeCpVKas8ay5SQ" name="ArrayResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfSsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfS8ecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfTMecEeCpVKas8ay5SQ" name="IntegerArrayResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfTcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfTsecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfT8ecEeCpVKas8ay5SQ" name="items">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.3"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfUMecEeCpVKas8ay5SQ" name="StringArrayResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfUcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfUsecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfU8ecEeCpVKas8ay5SQ" name="items">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.3"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfVMecEeCpVKas8ay5SQ" name="DrawableResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfVcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfVsecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfV8ecEeCpVKas8ay5SQ" name="BitmapDrawableResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfWMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfWcecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfWsecEeCpVKas8ay5SQ" name="filename">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfW8ecEeCpVKas8ay5SQ" name="TransitionDrawableResource">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfXMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfXcecEeCpVKas8ay5SQ" name="name">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfXsecEeCpVKas8ay5SQ" name="from">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfX8ecEeCpVKas8ay5SQ" name="to">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfYMecEeCpVKas8ay5SQ" name="ValueAccess"/>
+      <views xmi:id="_40yfYcecEeCpVKas8ay5SQ" name="AnyDrawableVA"/>
+      <views xmi:id="_40yfYsecEeCpVKas8ay5SQ" name="StringVA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfY8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfZMecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfZcecEeCpVKas8ay5SQ" name="IntegerVA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfZsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfZ8ecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfaMecEeCpVKas8ay5SQ" name="BooleanVA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfacecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfasecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfa8ecEeCpVKas8ay5SQ" name="ColorVA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfbMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfbcecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfbsecEeCpVKas8ay5SQ" name="DimensionVA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfb8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfcMecEeCpVKas8ay5SQ" name="const_value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfccecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfcsecEeCpVKas8ay5SQ" name="LayoutDimensionVA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfc8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfdMecEeCpVKas8ay5SQ" name="const_value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfdcecEeCpVKas8ay5SQ" name="DrawableVA"/>
+      <views xmi:id="_40yfdsecEeCpVKas8ay5SQ" name="ResourceAccess">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfd8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfeMecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfececEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfesecEeCpVKas8ay5SQ" name="StringRA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfe8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yffMecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yffcecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yffsecEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yff8ecEeCpVKas8ay5SQ" name="resource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfgMecEeCpVKas8ay5SQ" name="IntegerRA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40yfgcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfgsecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfg8ecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfhMecEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40yfhcecEeCpVKas8ay5SQ" name="resource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40yfhsecEeCpVKas8ay5SQ" name="BooleanRA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40zGQMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGQcecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGQsecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGQ8ecEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGRMecEeCpVKas8ay5SQ" name="resource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40zGRcecEeCpVKas8ay5SQ" name="ColorRA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40zGRsecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGR8ecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGSMecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGScecEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGSsecEeCpVKas8ay5SQ" name="resource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40zGS8ecEeCpVKas8ay5SQ" name="DimensionRA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40zGTMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGTcecEeCpVKas8ay5SQ" name="const_value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.2"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGTsecEeCpVKas8ay5SQ" name="value">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGT8ecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGUMecEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGUcecEeCpVKas8ay5SQ" name="resource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40zGUsecEeCpVKas8ay5SQ" name="ArrayRA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40zGU8ecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGVMecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGVcecEeCpVKas8ay5SQ" name="resource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGVsecEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40zGV8ecEeCpVKas8ay5SQ" name="DrawableRA">
+        <elements xsi:type="eef-views:Container" xmi:id="_40zGWMecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGWcecEeCpVKas8ay5SQ" name="package">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGWsecEeCpVKas8ay5SQ" name="externalResource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGW8ecEeCpVKas8ay5SQ" name="resource">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+      <views xmi:id="_40zGXMecEeCpVKas8ay5SQ" name="LayoutProperties">
+        <elements xsi:type="eef-views:Container" xmi:id="_40zGXcecEeCpVKas8ay5SQ" name="properties">
+          <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/SWT.toolkits#//@widgets.4"/>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGXsecEeCpVKas8ay5SQ" name="layout_above">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGX8ecEeCpVKas8ay5SQ" name="layout_alignBaseline">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGYMecEeCpVKas8ay5SQ" name="layout_alignBottom">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGYcecEeCpVKas8ay5SQ" name="layout_alignLeft">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGYsecEeCpVKas8ay5SQ" name="layout_alignTop">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGY8ecEeCpVKas8ay5SQ" name="layout_below">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGZMecEeCpVKas8ay5SQ" name="layout_toLeftOf">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+          <elements xsi:type="eef-views:ElementEditor" xmi:id="_40zGZcecEeCpVKas8ay5SQ" name="layout_toRightOf">
+            <representation href="platform:/plugin/org.eclipse.emf.eef.views/std/EMFProperties.toolkits#//@widgets.0"/>
+          </elements>
+        </elements>
+      </views>
+    </categories>
+  </eef-views:ViewsRepository>
+</xmi:XMI>
