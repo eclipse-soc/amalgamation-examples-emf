@@ -8,7 +8,8 @@ Bundle-Activator: droid.provider.DroidEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Export-Package: droid.provider
+Export-Package: droid.provider,
+ droid.providers
 Require-Bundle: org.eclipse.core.runtime,
  org.emf.example.droid;visibility:=reexport,
  org.eclipse.emf.edit;visibility:=reexport,
